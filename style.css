@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100%;
+    background-color: #212529;
+    color: white;
+}
+
+
+/* header heading section */
+#heading {
+    margin-top: 100px;
+}
+
+
+/* header search bar section */
+#search-bar {
+    max-width: 600px;
+}
+
+#search-bar input {
+    height: 50px;
+    
+}
+
+
+/* meal card */
+#card {
+    background-color: #800000;
+    color: gold;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#card img {
+    border-radius: 20px;
+}
+
+
+/* meal details container */
+#meal-details {
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #800000;
+}
+
+#meal-header {
+    width: 70%;
+    margin: auto;
+}
+
+#meal-thumbail img {
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+#details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+}
+
+#meal-instruction {
+    margin: auto;
+    text-align: center;
+}
+
+/* favourites offcanvus */
+#favourites-body {
+    background-color: #212529;
+}
+
+#fav-header{
+    background-color: #800000;
+}
